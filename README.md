@@ -28,6 +28,12 @@ npm start
 
 Now you'll need to pick a host to deploy it to.
 
+## DATABASE
+migratate
+```cmd
+npx prisma migrate dev --name update-db
+```
+
 ### DIY
 
 If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
